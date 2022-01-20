@@ -1,0 +1,34 @@
+{
+  "name": "bsapi.js",
+  "version": "2.0.6",
+  "description": "Get Your Brawl Stars Statistics Easily With bsapi.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bs": "./modules/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "bs-api",
+    "bs",
+    "brawlstars",
+    "api",
+    "cli"
+  ],
+  "author": "Joe Lee <silentninjaz.team@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "ws": "^7.5.0"
+  }
+}
